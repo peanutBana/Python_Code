@@ -20,7 +20,7 @@ def bin_search(a: Sequence, key: Any) -> int:
 
         if pc != pr:
             print(((pr-pc) * 4 -2) * ' '+ '->')
-        else:
+        else: 
             print('->')
 
         print(f'{pc:3}|', end='')
